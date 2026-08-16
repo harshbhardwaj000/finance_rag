@@ -49,7 +49,7 @@ telling you which file failed this check.
 
 **Streamlit (required):**
 ```bash
-streamlit run app.py
+streamlit run app.py # or python -m streamlit run app.py #
 ```
 Upload your PDFs in the UI, click "Index uploaded files", then ask
 questions. Sources (file name + page number) appear under every answer.

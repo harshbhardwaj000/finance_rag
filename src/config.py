@@ -21,8 +21,11 @@ if not OPENAI_API_KEY:
 
 # ---- Models --------------------------------------------------------------
 # Guide Stage 4: chunks and questions MUST be embedded by the same model.
-EMBEDDING_MODEL = "text-embedding-3-small"
-CHAT_MODEL = "gpt-4o"
+# EMBEDDING_MODEL = "text-embedding-3-small"
+# CHAT_MODEL = "gpt-4o"
+
+EMBEDDING_MODEL = "text-embedding-004" 
+CHAT_MODEL = "gemini-3.6-flash"
 TEMPERATURE = 0.2  # Guide Stage 7: 0 or 0.2, low = consistent factual answers
 
 # ---- Chunking (Guide Stage 3) --------------------------------------------
