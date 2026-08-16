@@ -24,7 +24,7 @@ if not OPENAI_API_KEY:
 # EMBEDDING_MODEL = "text-embedding-3-small"
 # CHAT_MODEL = "gpt-4o"
 
-EMBEDDING_MODEL = "text-embedding-004" 
+EMBEDDING_MODEL = "gemini-embedding-2" 
 CHAT_MODEL = "gemini-3.6-flash"
 TEMPERATURE = 0.2  # Guide Stage 7: 0 or 0.2, low = consistent factual answers
 
